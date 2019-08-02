@@ -15,3 +15,10 @@ All the extracted article will be saved to the database:
 And further it will calculate the term frequency of the word from the scrapped article.
 
 Also, I have scanned the links from the hamropatro.com, for identifying as the hub or authority.
+
+External Libary:
+
+1. Hangfire (for scheduling extracting in background)
+2. DateConversion (converting Bikramsabat to A.D)
+3. EntityFramework (saving to sqlserver)
+
