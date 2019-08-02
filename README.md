@@ -1,4 +1,4 @@
-# WebCrawlC-
+# WebCrawl in C#-
 Webcrawl and scrapping assignment implementation using C# and HtmlAgilityPack
 
 This project contains the source code for scrapping the five nepali news portal. 
