@@ -21,4 +21,5 @@ External Libary:
 1. Hangfire (for scheduling extracting in background)
 2. DateConversion (converting Bikramsabat to A.D)
 3. EntityFramework (saving to sqlserver)
-
+4. HtmlAgilityPack (HTML parser written in C# to read/write DOM)
+ 
