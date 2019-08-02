@@ -1,0 +1,25 @@
+﻿@model IEnumerable<WebCrawling.Document.TermResult>
+@{
+    ViewData["Title"] = "GetLinks";
+}
+
+
+<table class="table table-striped table-bordered table-sm table-responsive">
+    <thead>
+        <tr>
+            <th scope="col">Sites</th>
+            <th scope="col">Count</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Sites</td>
+                <td>@item.Count</td>
+
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.12" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+    <PackageReference Include="NepaliDateConverter.NETCORE" Version="1.0.1" />
+    
+    <PackageReference Include="Hangfire.Core" Version="1.7.0" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.7.0" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>
