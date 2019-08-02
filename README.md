@@ -1,4 +1,4 @@
-# WebCrawl in C#-
+# WebCrawl in C#
 Webcrawl and scrapping assignment implementation using C# and HtmlAgilityPack
 
 This project contains the source code for scrapping the five nepali news portal. 
@@ -14,6 +14,4 @@ All the extracted article will be saved to the database:
 
 And further it will calculate the term frequency of the word from the scrapped article.
 
-Also,
-
-I have scanned the links from the hamropatro.com, for identifying as the hub or authority.
+Also, I have scanned the links from the hamropatro.com, for identifying as the hub or authority.
