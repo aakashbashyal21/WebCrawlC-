@@ -9,3 +9,11 @@ The nepali news portals are:
 3.	https://www.onlinekhabar.com/
 4.	https://www.setopati.com/
 5.	https://www.nepalaaja.com
+
+All the extracted article will be saved to the database:
+
+And further it will calculate the term frequency of the word from the scrapped article.
+
+Also,
+
+I have scanned the links from the hamropatro.com, for identifying as the hub or authority.
